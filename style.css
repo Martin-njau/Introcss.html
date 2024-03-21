@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blanchedalmond;
+    padding: 20px;
+    color: teal;
+    text-align: center;
+}
+
+.intro {
+    background-color: slategray;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    color:  blanchedalmond;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.skills ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(143, 60, 175);
+    display:block;
+}
+
+.contact a:hover {
+    background-color: whitesmoke
+}
+
+@media only screen and (max-width: 600px) {
+    .skills li {
+        margin-bottom: 10px;
+    }
+}
